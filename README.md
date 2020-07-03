@@ -134,7 +134,7 @@ If the pacts verification passes the above test should pass. Otherwise proper er
 
 
 # Integration with PACT broker
-Pactify integrates easily with PACT Broker which allows you to manage and read (via UI) your pacts on external HTTP server running inside Docker container. First, clone the broker's repository:
+Pactify integrates easily with [PACT Broker](https://github.com/pact-foundation/pact-broker-docker) which allows you to manage and read (via UI) your pacts on external HTTP server running inside Docker container. First, clone the broker's repository:
 
 ```bash
 git clone https://github.com/DiUS/pact_broker-docker.git
